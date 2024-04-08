@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reduction_algorithm_parameters"
+version = "0.1"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"]
+
+[project.urls]
+Home = "https://github.com/Zloooy/reduction_algorithm_parameters"
+"Repository" = "https://github.com/Zloooy/reduction_algorithm_parameters"
+
+[tool.setptools]
+use-scm-version = true
+include-package-data = true
+package-data = {"*" = "py.typed"}
+
+[tool.setuptools_scm]
+
+
