@@ -1,4 +1,8 @@
 build/
 dist/
 __pycache__/
+lib/
+bin/
+pyvenv.cfg
+lib64
 reduction_algorithm_parameters.egg-info/

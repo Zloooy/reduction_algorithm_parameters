@@ -9,6 +9,7 @@ class AttributeReductionAlgorithmParameters:
 
     input_file: str
     output_file: str
+    output_perf_file: str | None = None
 
 
 @dataclass(frozen=True, kw_only=True)
